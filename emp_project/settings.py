@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '+cf8)*tw_1la@#qxhupg=jddjs!nxc
 
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['empregister.herokuapp.com']
+ALLOWED_HOSTS = ['empregister.herokuapp.com', '127.0.0.1git']
 
 
 # Application definition
