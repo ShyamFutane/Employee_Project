@@ -16,3 +16,7 @@ class Employee(models.Model):
     emp_code = models.CharField(max_length=15)
     mobile = models.CharField(max_length=15)
     position = models.ForeignKey(Position, on_delete=models.CASCADE)
+
+    def __str__(self):
+        """String for representing the Model object (in Admin site etc.)"""
+        return self.name
